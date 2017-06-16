@@ -5,7 +5,7 @@
  
    <a href="${pageContext.request.contextPath}/">Home</a>
    |
-   <a href="${pageContext.request.contextPath}/insertPersonalDetails">Insert Personal Details</a>
+   <a href="${pageContext.request.contextPath}/addProfile">Insert Personal Details</a>
    |
    <a href="${pageContext.request.contextPath}/Display">Display Resume Details</a>
    

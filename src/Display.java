@@ -19,12 +19,9 @@ public class Display extends HttpServlet {
 	Connection connection;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	
-	    
-        String nextURL = "/WEB-INF/jsp/displayProfile.jsp";
+        
+	    String nextURL = "/WEB-INF/jsp/displayProfile.jsp";
         String resumeID = request.getParameter("ResumeID");
-       
-      
         
         String query = "SELECT ResumeID,FirstName,LastName,EmailAddress, SchoolName, LevelOfEducation,WorkExperiance, LevelOfExperty, SkillSetName, LevelOfSkillSet FROM Resume ResumeID = '"+ resumeID + "'";
         try{
